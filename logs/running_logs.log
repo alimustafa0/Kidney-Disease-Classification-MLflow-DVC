@@ -1065,3 +1065,19 @@ Traceback (most recent call last):
     raise IOError(
 OSError: No file or directory found at training\model.h5
 [2024-03-16 15:20:59,831: INFO: _internal: 127.0.0.1 - - [16/Mar/2024 15:20:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-16 15:23:32,621: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.19:8080]
+[2024-03-16 15:23:32,621: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-03-16 15:23:37,073: INFO: _internal: 127.0.0.1 - - [16/Mar/2024 15:23:37] "GET / HTTP/1.1" 200 -]
+[2024-03-16 15:23:44,248: INFO: _internal: 127.0.0.1 - - [16/Mar/2024 15:23:44] "POST /predict HTTP/1.1" 200 -]
+[2024-03-16 15:24:06,316: INFO: _internal: 127.0.0.1 - - [16/Mar/2024 15:24:06] "POST /predict HTTP/1.1" 200 -]
+[2024-03-16 15:24:16,975: INFO: _internal: 127.0.0.1 - - [16/Mar/2024 15:24:16] "POST /predict HTTP/1.1" 200 -]
+[2024-03-16 15:34:14,728: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.19:8080]
+[2024-03-16 15:34:14,728: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-03-16 15:34:20,243: INFO: _internal: 127.0.0.1 - - [16/Mar/2024 15:34:20] "GET / HTTP/1.1" 200 -]
+[2024-03-16 15:34:28,076: INFO: _internal: 127.0.0.1 - - [16/Mar/2024 15:34:28] "POST /predict HTTP/1.1" 200 -]
